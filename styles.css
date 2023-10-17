@@ -1,0 +1,647 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+*
+{
+    font-family: 'Oswald', sans-serif;
+letter-spacing: 0px;
+line-height: 15px;
+font-size: 15px;
+}
+.card1 {
+    background-color: #e0fbfb7c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 35px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s;
+    text-align: center;
+}
+.card1:hover {
+    background-color: #bffafa;
+    width: 460px;
+    scale: 1.04;
+}
+
+.card2 {
+    transition: all 0.2s;
+    background-color: #98c1d86d;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: 1px black solid;
+    border-radius: 35px;
+    width: 450px;
+    align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+.card2:hover {
+    background-color: #82b1cd;
+    width: 460px;
+   
+    scale: 1.04;
+
+}
+
+.correcttext {
+    margin: 5px;
+}
+
+.pic {
+    transition: all 0.6s;
+}
+.pic:hover {
+    scale: 2.4;
+}
+
+
+
+.topimgalign {
+    transition: all 0.4s;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0px;
+}
+.topimgalign:hover {
+    scale: 1.5;
+}
+
+.btn {
+    transition: all 0.2s;
+}
+.btn:hover {
+    scale: 1.2;
+}
+
+/* body {
+    align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+} */
+.massivedata {
+    align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+.NewList {
+    padding: 0px;
+    list-style: none;
+}
+
+.NewList li {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 99px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s;
+}
+
+.NewList li:hover {
+    scale: 1.1;
+    background-color: rgb(236, 155, 155);
+}
+
+#oldtext::after:hover {
+    content: 'dasha';
+}
+
+
+
+.container3:hover .oldtext3 {
+    display:none;
+}
+
+.container3:hover .newtextadd{
+    display: block;
+}
+.oldtext3, .newtextadd {
+    display: block;
+}
+
+.newtextadd {
+    display: none;
+}
+
+.container3:hover .oldtext3 {
+    display:none;
+}
+
+.container3:hover .newtext3{
+    display: block;
+}
+.oldtext3, .newtext3 {
+    display: block;
+}
+
+.newtext3 {
+    display: none;
+    transition: all 0.3s;
+}
+
+.container2:hover .oldtext2 {
+    display:none;
+}
+
+.container2:hover .newtext2{
+    display: block;
+}
+.oldtext2, .newtext2 {
+    display: block;
+}
+
+.newtext2 {
+    display: none;
+}
+
+.newtext3:hover {
+    scale: 3;
+}
+
+.listOfAct {
+    margin: 0px;
+}
+
+.listOfAct li {
+    list-style: none;
+    margin-bottom: 3px;
+    text-align: center;
+    transition: all 0.3s;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 5px;
+}
+
+.listOfAct ul {
+    margin: 5px;
+}
+
+.listOfAct li:hover {
+    background-color: rgb(236, 155, 155);
+    border: 1px solid black;
+    scale: 1.1;
+
+
+}
+
+.skipspace {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+.listOfAct ul {
+    padding: 0px;
+}
+
+.TestTable {
+width: 80%;
+}
+
+.TestTable td {
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
+}
+
+.TestTable td:hover {
+    scale: 1.1;
+}
+
+
+
+
+
+.lowtestlist {
+    list-style: none;
+    padding: 0;    
+}
+
+.lowtestlist li {
+display: inline;
+}
+
+.bottomimg {
+    border: 1px solid black;
+    transition: all .6s;
+    border-radius: 35px;
+}
+
+
+.bottomimg:hover {
+    scale: 1.4;
+}
+
+.bottomtextcon:hover {
+    scale: 1.1;
+    background-color: antiquewhite;
+}
+
+.bottomimgcon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+
+}
+
+.bottomtextcon { display: inline-block;
+width: 18%;    
+box-sizing: border-box;
+border: 1px solid black;
+padding: 10px;
+transition: all 0.6s; 
+vertical-align: center;
+border-radius: 35px;
+text-align: center;
+background-color: rgba(250, 235, 215, 0.609);
+margin-right: 15px;
+}
+
+.bottomwiki {
+display: flex;
+margin-top: 15px;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+
+.nospacetopp {
+    margin-bottom: 0px;
+}
+
+.img1 {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    line-height: 10px;
+    border: 0px solid black;
+    border-radius: 35px;
+}
+
+/* Work area */
+/* Work area */
+/* Work area */
+/* Work area */
+
+.topdata {
+    /* align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row; */
+display: inline-block;
+margin-top: 15px;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+width: 40%;
+}
+
+/* 
+.toptextalign {
+    line-height: 0px;
+    text-align: left;
+} */
+
+.topimgalign {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    line-height: 10px;
+    /* border: 0px solid black; */
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+/* .toplinks {
+    border-right: 2px solid black;
+    padding-right: 5px;
+}
+
+.toplinks:last-child{
+    border-right: none;
+} */
+
+
+/* LINKS */
+/* LINKS */
+/* LINKS */
+/* 
+a:hover, a:visited:hover {
+    color:rgb(118, 0, 145);
+    font-size: 22px;
+    text-decoration: underline;
+    border: 1px solid black;
+    scale: 1.1;
+    padding: 5px;
+    box-sizing: border-box;
+} */
+
+/* .navbar:hover {
+    scale: 1.04;
+    background-color: #fccb06;
+} */
+
+/* a:hover{
+    scale: 1.1;
+}
+
+a {
+    transition: 0.2s;
+} */
+
+
+/* .upperlinks li:hover {
+    scale: 1.1;
+} */
+
+a:hover {
+    scale: 1.2;
+}
+.personallink:hover {
+    scale: 1.2;
+}
+
+
+
+.upperlinks li {
+    transition: all 0.2s;
+    list-style: none;
+    padding-inline: 10px;
+    margin: 3px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: row;
+    /* padding-left: 3px; */
+    text-align: center;
+}
+
+.upperlinks ul {
+    padding: 0px;
+}
+
+.upperlinks {
+    text-decoration: none;
+}
+
+a {
+    transition: all 0.2s;
+    list-style: none;
+    padding: 5px;
+    margin: 3px;
+    color: #0062ff;
+
+}
+
+.personallink {
+    align-items: center;
+}
+
+.topcontent p {
+    display: inline-block;
+    /* width: 18%; */
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* transition: all 0.35s; */
+    vertical-align: center;
+    /* border-radius: 35px; */
+    text-align: center;
+}
+
+.myname {
+    font-size: 25px;
+}
+
+.upperlinks label {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.upperlinks {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 35px;
+    background-color: #9efebb5a;
+    transition: all 0.2s;
+    padding-top: 15px;
+}
+
+.upperlinks:hover {
+    background-color: #9efebb97;
+    scale: 1.04;
+
+}
+
+.upperlinks ul {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.topdata {
+    /* border: 1px solid black; */
+    /* REMOVE THIS UP  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.topcontent {
+    text-align: center;
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin: 0px;
+    /* REMOVE THIS UP */
+}
+
+.topcontent label {
+    font-size: 30px;
+}
+
+/* .topcontent label {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+} */
+.bottomtextcon label {
+    font-size: 25px;
+}
+
+.bottomtext {
+    margin-top: 20px;
+}
+
+.formfield label {
+    display: block;
+}
+
+.fieldrow {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.fieldrow .formfield {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+}
+
+.fieldrow .formfield:last-child {
+    margin-right: 0;
+}
+
+.formfield input, .formfield textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.navtop {
+    position: relative;
+}
+
+.navtopsub {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 30px;
+    z-index: 2;
+}
+
+.navtop .navtopsub .upperlinks li:hover {
+    scale: 1.2;
+}
+
+@media (max-width:700px){
+    * {
+        font-size: 10px;
+    }
+    .topdata {
+        scale: 0.7;
+    }
+
+
+    .card2 {
+        scale: 0.7;
+        margin-bottom: 1px;
+        margin-top: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .card1 {
+        scale: 0.7;
+        margin-bottom: 1px;
+        margin-top: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+}
+
+
+.adapttxt {
+    border: 1px solid black;
+    /* padding: 5px; */
+    padding-inline: 10px;
+    width: 33%;
+    background-color: #bfe3fa5d;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 0.6s;
+    padding-top: 15px;
+}
+
+
+
+.adaptbaikal {
+    display: block;
+    margin-right: 15px;
+    margin-left: 7px;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: all 0.6s;
+}
+
+.adaptivity {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    /* border: 1px solid black; */
+    /* width: 450px; */
+}
+
+
+@media (max-width: 700px) {
+    .bottomwiki {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottomimg {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .adaptivity {
+        display: flex;
+        flex-direction: column;
+    }
+    .adaptbaikal {
+        margin-bottom: 10px;
+    }
+}
+
+.adaptbaikal:hover {
+    scale: 1.4;
+}
+
+.adapttxt:hover {
+    scale: 1.1;
+    background-color: #bfe3fa;
+}
+
+.adapttxt label {
+    font-size: 30px;
+}
+
+body {
+    background-image: url('https://w.wallhaven.cc/full/md/wallhaven-mdy289.jpg');
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
